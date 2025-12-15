@@ -1,7 +1,7 @@
-﻿using MauiPlanets.Models;
+﻿using Planeedid.Models;
 
 
-namespace MauiPlanets.Services
+namespace Planeedid.Services
 {
     internal class PlanetsServices
     {
@@ -172,9 +172,14 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Pluto",
-                Subtitle = "The dwarf planet",
+                Subtitle = "The Fallen Planet",
                 HeroImage = "pluto.png",
-                Description = "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume by a small margin, but is less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has roughly one-sixth the mass of the Moon and one-third of its volume. Originally considered a planet, its status was changed when astronomers adopted a new definition of the word with new criteria.",
+                Description = "Pluto is one of the most famous objects in our Solar System" +
+                              " — not because of its size, but because of the controversy around it." +
+                              "Discovered in 1930, Pluto was long considered the ninth planet " +
+                              "until astronomers redefined what it means to be a planet in 2006." +
+                              "Located deep in the icy Kuiper Belt beyond Neptune, Pluto is made mostly of rock and ice." +
+                              "Despite being small, Pluto has a thin atmosphere and five known moons.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
@@ -187,9 +192,14 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "The inner dwarf",
+                Subtitle = "The hidden World of the Asteroid Belt",
                 HeroImage = "ceres.png",
-                Description = "Ceres (minor-planet designation: 1 Ceres) is a dwarf planet in the main asteroid belt between the orbits of Mars and Jupiter. It was the first known asteroid, discovered on 1 January 1801 by Giuseppe Piazzi at Palermo Astronomical Observatory in Sicily, and announced as a new planet. Ceres was later classified as an asteroid and more recently as a dwarf planet, the only one not beyond the orbit of Neptune and the largest that does not have a moon.",
+                Description = "Ceres is the largest object in the asteroid belt between Mars and Jupiter" +
+                              " and the only dwarf planet found in the inner Solar System." +
+                              "When it was discovered in 1801, it was first thought to be a planet," +
+                              " then an asteroid, and finally reclassified as a dwarf planet." +
+                              "Unlike most asteroids, Ceres is round and may contain a large amount of ice beneath its surface." +
+                              "Scientists believe it could even harbor a subsurface ocean.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
@@ -202,9 +212,14 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Haumea",
-                Subtitle = "The flat dwarf",
+                Subtitle = "The fast-spinning oddball",
                 HeroImage = "haumea.png",
-                Description = "Haumea (minor-planet designation: 136108 Haumea) is a dwarf planet located beyond Neptune's orbit.[25] It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory, and formally announced in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in Spain, who had discovered it that year in precovery images taken by the team in 2003. From that announcement, it received the provisional designation 2003 EL61.",
+                Description = "" +
+                              "Haumea is one of the most unusual dwarf planets in the Solar System. " +
+                              "It spins so rapidly that it is stretched into an elongated, egg-like shape rather than a sphere. " +
+                              "Located far beyond Neptune in the Kuiper Belt, Haumea is covered in bright, crystalline ice. " +
+                              "Its extreme rotation creates strong temperature differences across its surface. " +
+                              "Haumea also has a ring system and two known moons, making it a truly unique world.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
@@ -216,10 +231,14 @@ namespace MauiPlanets.Services
             },
             new()
             {
-                Name = "MakeMake",
-                Subtitle = "The bright dwarf",
+                Name = "Makemake",
+                Subtitle = "The icy ruler",
                 HeroImage = "makemake.png",
-                Description = "Makemake[g] (minor-planet designation: 136472 Makemake) is a dwarf planet in the Kuiper belt, a disk of icy bodies beyond the orbit of Neptune. It is the fourth largest trans-Neptunian object and the largest member of the classical Kuiper belt,[h] having a diameter 60% that of Pluto. It was discovered on March 31, 2005 by American astronomers Michael E. (\"Mike\") Brown, Chad Trujillo, and David Rabinowitz at Palomar Observatory. As one of the largest objects found by this team, the discovery of Makemake contributed to the reclassification of Pluto as a dwarf planet in 2006.",
+                Description = "" +
+              "Makemake is a bright, icy dwarf planet located far beyond Neptune in the Kuiper Belt. " +
+              "Its surface is covered in frozen methane and nitrogen, allowing it to reflect large amounts of sunlight. " +
+              "Discovered in 2005, Makemake played a key role in redefining what it means to be a planet. " +
+              "Despite its size, it has no thick atmosphere and only one known moon, adding to its mystery.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
@@ -232,9 +251,13 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Eris",
-                Subtitle = "The largest dwarf",
+                Subtitle = "The rule breaker",
                 HeroImage = "eris.png",
-                Description = "Eris (minor-planet designation: 136199 Eris) is the most massive and second-largest known dwarf planet in the Solar System.[23] It is a trans-Neptunian object (TNO) in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory–based team led by Mike Brown and verified later that year. It was named in September 2006 after the Greco–Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive in the Solar System (counting moons). It is also the largest known object in the Solar System that has not been visited by a spacecraft. Eris has been measured at 2,326 ± 12 kilometres (1,445 ± 7 mi) in diameter;[13] its mass is 0.28% that of the Earth and 27% greater than that of Pluto,[24][25] although Pluto is slightly larger by volume.[26] Both Eris and Pluto have a surface area that is comparable to that of Russia or South America.",
+                Description = "" +
+              "Eris is the most massive known dwarf planet in the Solar System and was responsible for changing planetary definitions. " +
+              "Its discovery sparked the debate that ultimately led to Pluto being reclassified as a dwarf planet. " +
+              "Eris follows a highly eccentric orbit far beyond Neptune, where temperatures are extremely low. " +
+              "Its surface is thought to be covered in reflective ice, making it one of the brightest distant objects we know.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()

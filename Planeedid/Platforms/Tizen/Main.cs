@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace MauiPlanets
+namespace Planeedid
 {
     internal class Program : MauiApplication
     {

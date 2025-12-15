@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiPlanets
+namespace Planeedid
 {
     public static class MauiProgram
     {

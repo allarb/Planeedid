@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiPlanets
+namespace Planeedid
 {
     [Application]
     public class MainApplication : MauiApplication

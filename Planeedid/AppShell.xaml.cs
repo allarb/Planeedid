@@ -1,4 +1,4 @@
-﻿namespace MauiPlanets
+﻿namespace Planeedid
 {
     public partial class AppShell : Shell
     {

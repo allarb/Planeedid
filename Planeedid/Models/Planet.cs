@@ -1,4 +1,4 @@
-﻿namespace MauiPlanets.Models
+﻿namespace Planeedid.Models
 {
     public class Planet
     {

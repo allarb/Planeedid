@@ -1,4 +1,4 @@
-namespace MauiPlanets.Views;
+namespace Planeedid.Views;
 
 public partial class StartPage : ContentPage
 {

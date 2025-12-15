@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>MauiPlanets</ApplicationTitle>
+		<ApplicationTitle>Planeedid</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.mauiplanets</ApplicationId>

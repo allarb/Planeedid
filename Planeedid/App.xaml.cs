@@ -4,7 +4,7 @@ using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
 
-namespace MauiPlanets
+namespace Planeedid
 {
     public partial class App : Application
     {

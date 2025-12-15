@@ -1,7 +1,7 @@
-using MauiPlanets.Models;
-using MauiPlanets.Services;
+using Planeedid.Models;
+using Planeedid.Services;
 
-namespace MauiPlanets.Views;
+namespace Planeedid.Views;
 
 public partial class PlanetsPage : ContentPage
 {
