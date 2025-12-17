@@ -23,9 +23,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg",
-                    "https://science.nasa.gov/wp-content/uploads/2023/09/spectra-mercury.jpg?w=1024",
-                    "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:240,cw:1440,ch:1080,q:80,w:1440/w3kqDGBSTqVnNTpd5pajWm.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mercury_globe.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mercury_MESSENGER.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mercury_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mercury_transit.jpg"
                 }
             },
             new()
@@ -44,9 +46,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/venus-mariner-10-pia23791-fig2.jpg?w=1096&h=1096&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/500px-Venus_globe.jpg",
-                    "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/CEAA/production/_114360925_jaxa-isas-akatsuki-project-team.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/8/85/Venus_globe.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/24/Venus_atmosphere.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/0/08/Venus_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/54/Venus_transit.jpg"
                 }
             },
             new()
@@ -63,9 +67,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                    "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002131/GSFC_20171208_Archive_e002131~large.jpg",
-                    "https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg",
-                    "https://onetreeplanted.org/cdn/shop/articles/planet_earth_sun_7354ba86-5359-4c08-919a-54a7d5aec991_1600x.jpg?v=1745336570",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/6/6f/Earth_Eastern_Hemisphere.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/5f/Earth_Western_Hemisphere.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Earthrise.jpg"
                 }
             },
             new()
@@ -83,9 +89,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
-                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
-                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/70/Mars_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/3/36/Mars_atmosphere.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mars_sunset.jpg"
                 }
             },
             new()
@@ -103,9 +111,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#cd8026"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/5a/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_clouds.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/6/6f/Jupiter_moons.jpg"
                 }
             },
             new()
@@ -123,10 +133,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#c6502f"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/29/Saturn_Storm.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/43/Saturn_rings.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/1e/Saturn_hexagon.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9f/Saturn_moons.jpg"
                 }
             },
             new()
@@ -144,9 +155,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#996237"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Uranus_and_rings.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/79/Uranus_clouds.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/0/01/Uranus_moons.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/b/b7/Uranus_atmosphere.jpg"
                 }
             },
             new()
@@ -164,9 +177,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Neptune_clouds.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/8/8b/Neptune_rings.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/27/Neptune_storm.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9d/Neptune_moons.jpg"
                 }
             },
             new()
@@ -184,9 +199,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1200px-Pluto_in_True_Color_-_High-Res.jpg",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkkUQ4jSYg3rB4JnPO91xFgf1nWh54RPd7A&s",
-                    "https://www.eurokidsindia.com/blog/wp-content/uploads/2025/01/Facts-about-pluto-planet-for-kids-870x437.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4f/Pluto_and_Charon.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pluto_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pluto_atmosphere.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_moons.jpg"
                 }
             },
             new()
@@ -204,9 +221,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKO99qlqWs_eiytc6BbMAoN8B_kFZ6bDpKfg&s",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcZq-lIQbKZLn0ygwXemkuPmGhVpeORUaVFg&s",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7R7v88cJocMvPqDI1SECFDncdlVQoqqlHQ&s"
+                    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ceres_-_RC3_-_Haulani_Crater_%282015%29.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/90/Ceres_Dawn.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ceres_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ceres_map.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ceres_ice.jpg"
                 }
             },
             new()
@@ -224,9 +243,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzzhiLdOp7Ti9gOsSG8OVkVnvmxEi0zPZapg&s",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Haumea_Rotation.gif/250px-Haumea_Rotation.gif",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pRuaxKT940shRmHXVmVuhWhMIo3YgGWqKg&s"
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9c/Haumea_Rotation.gif",
+                    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Haumea_Artist_Concept.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Haumea_and_moons.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/7e/Haumea_ring.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/2/2c/Haumea_shape.jpg"
                 }
             },
             new()
@@ -243,9 +264,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Niia49RiA22SffDhwP9bVdvSprCQq-odNA&s",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSyZQ1EBTto8cy-fkKnNHKTcqm7bGmMt50ZQ&s",
-                    "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:420,cw:1080,ch:1080,q:80,w:1080/TAchMPa9r9zS4KWcFUaZLe.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/2/29/Makemake_artist_concept.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/1e/Makemake_and_moon_artist_concept.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Makemake_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/59/Makemake_orbit.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/75/Makemake_reflection.jpg"
                 }
             },
             new()
@@ -262,9 +285,11 @@ namespace Planeedid.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSL91330iDlgQhUHsppK6pj2jhY2SDN-1qQ&s",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG6gj2_jvLR_vafhxvRxJMZvvR3EEo1a6Ufg&s",
-                    "https://cff2.earth.com/uploads/2024/02/20135637/Eris_icy-dwarf-planet_kuiper-belt_1m-1400x850.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eris_and_dysnomia.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/56/Eris_artist_concept.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Eris_surface.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/1/12/Eris_orbit.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/9e/Eris_reflection.jpg"
                 }
             },
         };

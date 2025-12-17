@@ -78,33 +78,49 @@
                     Style="{StaticResource PlanetDetailsTextStyle}"
                     Text="{Binding Description}"/>
 
-                <!--Planet images-->
-                <Label 
-                    Style="{StaticResource FeaturedPlanetHeaderSubtitleStyle}"
-                    Text="Gallery"/>
+                <!-- Planet images -->
+                <Label
+    Style="{StaticResource FeaturedPlanetHeaderSubtitleStyle}"
+    Text="Gallery"/>
+
                 <CollectionView
-                    Margin="0,-6,0,0"
-                    HeightRequest="400"
-                    WidthRequest="400"
-                    ItemsSource="{Binding Images}">
+    ItemsSource="{Binding Images}"
+    HeightRequest="140"
+    Margin="0,8,0,0">
 
                     <CollectionView.ItemsLayout>
                         <LinearItemsLayout
-                            Orientation="Vertical"
-                            ItemSpacing="16">
-                        </LinearItemsLayout>
+            Orientation="Horizontal"
+            ItemSpacing="12"/>
                     </CollectionView.ItemsLayout>
+
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Image
-                                Source="Binding ."
-                                Aspect="AspectFill"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center">
-                            </Image>
+                            <Frame
+                Padding="0"
+                CornerRadius="12"
+                HasShadow="False"
+                HeightRequest="120"
+                WidthRequest="160">
+
+                                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="120"
+                    WidthRequest="160">
+                                    <Image.Source>
+                                        <UriImageSource
+                            Uri="{Binding .}"
+                            CachingEnabled="True"
+                            CacheValidity="7.00:00:00"/>
+                                    </Image.Source>
+                                </Image>
+
+                            </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
+
                 </CollectionView>
+
             </VerticalStackLayout>
         </ScrollView>
     </Grid>
